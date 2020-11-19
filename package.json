@@ -1,0 +1,32 @@
+{
+  "name": "triox-theme",
+  "version": "0.1.0",
+  "description": "A CSS theme for the Triox cloud server based on bulma",
+  "main": "sass/mystyles.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronErhardt/Triox-Theme.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "bulma",
+    "triox",
+    "cloud"
+  ],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/AaronErhardt/Triox-Theme/issues"
+  },
+  "homepage": "https://github.com/AaronErhardt/Triox-Theme#readme",
+  "devDependencies": {
+    "bulma": "^0.9.1",
+    "node-sass": "^5.0.0"
+  }
+}
